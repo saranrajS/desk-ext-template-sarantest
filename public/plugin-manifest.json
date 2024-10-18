@@ -1,0 +1,37 @@
+{
+  "locale": [
+    "en"
+  ],
+  "service": "DESK",
+  "storage": true,
+  "type": "personal",
+  "whiteListedDomains": ["https://desk.zoho.com"],
+  "modules": {
+    "widgets": [
+      {
+        "location": "desk.bottomband",
+        "url": "/widget1.html",
+        "name": "Ticket Assignment",
+        "logo": "/assets/logo.png",
+        "icon": "/assets/logo.png"
+      }
+    ]
+  },
+  "cspDomains": {
+    "connect-src": []
+  },
+  "zohoAuthorisation": {},
+  "connectors": [{
+    "connectionLinkName": "sarantest",
+    "connectionName": "sarantest",
+    "serviceName": "zlabs_integration",
+    "userAccess": true,
+    "isUserDefinedService": false,
+    "sharedBy": "645936564",
+    "scope": [
+      "Desk.tickets.ALL"
+    ]
+  }],
+  "config": [],
+  "moduleSupport": false
+}
